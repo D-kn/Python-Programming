@@ -69,6 +69,16 @@ list_of_strings = ["Hello", "my", "friend"]
 my_string = " ".join(list_of_strings)
 print(my_string)
 
-# 10)
 
-# 11)
+# 10) Merge two dictionaries 
+d1 = {"name":"Dicken", "Age":26}
+d2 = {"name":"Dicken", "city":"Paris"}
+merged_dict = {**d1, **d2}
+print(merged_dict)
+
+
+# 11) Simplify if statement for multiple checks
+colors = ['red', 'green', 'blue']
+c = 'red'
+if c in colors:
+    print(f'{c} is in colors.')
