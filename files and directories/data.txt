@@ -1,0 +1,1 @@
+Python has several built-in modules and functions for handling files. These functions are spread out over several modules such as os, os.path, shutil, and pathlib, to name a few.
